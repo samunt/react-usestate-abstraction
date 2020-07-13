@@ -14,7 +14,7 @@ export default class CounterClass extends Component {
     render() {
         return (
             <div>
-                <h1>The count is {this.state.count}</h1>
+                <h5>The count is {this.state.count}</h5>
                 <button onClick={this.increment}>INCREMENT</button>
             </div>
         )
